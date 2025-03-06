@@ -1,0 +1,9 @@
+Porting the C program to C++ was straightforward. The primary changes involved:
+1. Replacing `#include <stdio.h>` with `#include <iostream>` to use C++-style input/output.
+2. Replacing `printf` with `cout` for better readability and type safety.
+3. Using `std::cout` instead of `printf`, which is more idiomatic in C++.
+4. Keeping the function logic unchanged, as C++ is backward-compatible with C in most cases.
+
+The transition was seamless since this was a simple program. However, for more complex programs,
+C++ features like classes, templates, and the Standard Template Library (STL) could be leveraged
+to improve efficiency and structure.
